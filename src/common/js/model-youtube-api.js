@@ -457,7 +457,6 @@
                 url = "https://www.googleapis.com/youtube/v3/playlists?part=snippet&channelId=" + channelId + "&maxResults=" + maxResults + "&key=" + this.devKey;
             }
             else {
-                var ids = playlistIDs.join();
                 url = "https://www.googleapis.com/youtube/v3/playlists?part=snippet&id="+ playlistIDs +"&maxResults=" + maxResults + "&key=" + this.devKey;
             }
 
