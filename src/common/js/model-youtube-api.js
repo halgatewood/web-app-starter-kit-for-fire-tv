@@ -458,7 +458,7 @@
             }
             else {
                 var ids = playlistIDs.join();
-                url = "https://www.googleapis.com/youtube/v3/playlists?part=snippet&" + "&id="+ ids +"&maxResults=" + maxResults + "&id="+ playlistIDs + "&key=" + this.devKey;
+                url = "https://www.googleapis.com/youtube/v3/playlists?part=snippet&id="+ playlistIDs +"&maxResults=" + maxResults + "&key=" + this.devKey;
             }
 
             utils.ajaxWithRetry({
